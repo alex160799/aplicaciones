@@ -14,6 +14,7 @@ p{
     margin: 0 auto;
     padding-top: 15px;
     padding-bottom: 15px;
+    text-align: center;
 }
 .lado{
     display: flex;
@@ -87,13 +88,55 @@ section{
 
 .boton input{
     width:150px;
-    height: 40px;
+    height: 60px;
     background-color: #fe4918;
     color: white;
     border: #fe4918;
     border-radius: 5px;
+    font-size: 20px;
 }
 .boton input:hover{
     background-color: #353535;
     transition: ease 0.5s all;
 }
+/*Diseños para DiseñoWeb panel de 4 divs*/
+.modulos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pequeno{
+    width: 50%;
+}
+.conten{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.log{
+    width: 30%;
+    font-size: 5rem;
+    color: #fe4918;
+}
+.tex{
+    width: 70%;
+    text-align: left;
+}
+span{
+    color: #fe4918;
+}
+.tecno{
+    width: 25%;
+    text-align: center;
+    
+}
+.tecno i{
+    font-size: 10rem;
+    padding-bottom: 30px;
+    color: #353535;
+}
+.encabezado{
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
