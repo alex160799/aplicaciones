@@ -155,7 +155,8 @@ span{
 .padre
 {
 	display: flex;
-	flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    margin-bottom: 50px;
 }
 
 /*Header*/
@@ -164,11 +165,16 @@ span{
 {
 	display: flex;
 	flex-flow: column nowrap;
-	background: url( "../recursos/img/laptop-3174729_1920.jpg");
+	background: url( "../recursos/img/dedoTecno.png");
 	background-attachment: contain;
 	background-position: center;
 	background-size: cover;
-	height: 100vh;	
+	height: 50vh;	
+}
+.contenido-header h2{
+    padding-top: 8%;
+    color: #fff;
+    font-size: 50px;
 }
 
 nav.redes-sociales
@@ -197,7 +203,7 @@ nav.redes-sociales a:last-child
 .tituloPrincipal
 {
     width: 43%;
-	font-size: 17px;
+	font-size: 14px;
     color: #fff;
     padding-left: 10px;
     padding-top: 10px;
@@ -244,13 +250,12 @@ nav.redes-sociales a:last-child
 	text-transform: uppercase;
 	text-decoration: none;
 	transition: all .3s ease;
-	display: block;
 	text-align: center;
-	margin-top: 11px;
-	padding-top: 11px;
-	width: 150px;
+	margin-top: 14px;
+	padding-top: 14px;
+	width: 120px;
 	height: 40px;
-	margin-right: 15px;
+	margin-left: 20px;
 }
 
 .nav a:hover
