@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background: white;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+article .articulo {
+    display: flex;
+}
+
+.imagen img {
+    width: 130px;
+    margin: 50px 20px;
+}
+
+.description {
+    margin: 30px;
+    width: 70%;
+}
+
+.description h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #FE4918;
+    font-size: 25px;
+}
+
+.description p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+}
