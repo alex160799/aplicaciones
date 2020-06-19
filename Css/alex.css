@@ -274,7 +274,7 @@ nav.redes-sociales a:last-child
 {
 	background-color: #353535;
 	margin-top: 50px;
-	width: 100%;
+    width: 100%;
 }
 
 .footer i
@@ -307,10 +307,11 @@ nav.redes-sociales a:last-child
 
 .footer p
 {
-	width: 60%;
+	width: 90%;
 	text-align: justify;
 	margin: 0 auto;
-	color: white;
+    color: white;
+    font-family: 'Oswald',sans-serif;
 }
 .footer li
 {
