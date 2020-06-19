@@ -10,6 +10,14 @@
 	flex-flow: column nowrap;
 }
 
+h2
+{
+	padding: 5px;	
+	text-transform: uppercase;
+ 
+	margin-top: 50px;
+}
+
 h2::after
 {
 	content: '';
@@ -20,9 +28,23 @@ h2::after
 	display: block;
 }
 
+h3
+{
+	text-transform: uppercase;
+	text-align: center;
+	color: white;	
+}
+
  span
 {
 	color: #fe4819;
+}
+
+p
+{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
 }
 
 
@@ -148,11 +170,9 @@ nav.redes-sociales a:last-child
 
 .footer  h3
 {
-	text-transform: uppercase;
-	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 40px;
-	color: white;
+
 }
 
 .footer p
@@ -160,7 +180,7 @@ nav.redes-sociales a:last-child
 	width: 60%;
 	text-align: justify;
 	margin: 0 auto;
-	color: white;
+	font-size: 15px;
 }
 .footer li
 {
@@ -187,15 +207,6 @@ nav.redes-sociales a:last-child
 }
 
  
-/*Mapa*/
-div.mapa
-{
-	display: flex;
-	flex-flow: row nowrap;
-	height: 420px;
- 	background-color:#f2f2f2; 
-}
-
 
 /*	main 	*/
 
@@ -211,12 +222,15 @@ section .main
 	text-align: center;
 }
 
+
 .nuestro-servicios p 
 {
 	width: 70%;
 	text-align: center;
 	margin: 0 auto;
+	margin-top: 10px;
 	margin-bottom: 20px;
+	color: #000;
 }
 
 .contenedor
@@ -230,17 +244,88 @@ section .main
 	flex: 1 1 auto;
 	flex-flow: row nowrap;
 	text-align: center;
+	padding: 20px;
+	margin-bottom: 50px;
 }
 
 
 .contenidoPrincipal
 {
 	display: flex;
-	background-color: blue;
+	height: 400px;
+}
 
+.contenidoPrincipal h3, .contenidoPrincipal p
+{color: #000;}
+
+.contenido
+{
+	flex: 1 1 auto;
+	padding: 10px;
+}
+
+.fondo  
+{
+	font-size: 8em;
+}
+
+.fondo div
+{
+	font-size: 0.6em;
+	 color: #fe4918 ;
+}
+
+.contenedor-oscuro
+{
+	background-color: #353535;
+	height: 350px;
+	padding: 40px;
+}
+
+.contenedor-oscuro h3
+{
+	padding: 20px;
+	text-align: left;
+	font-size: 1.5em;	
+}
+
+/*Mapa*/
+
+.map
+{
+	text-align: center; 
 }
 
  
+div.mapa
+{
+	display: flex;
+	flex-flow: row nowrap;
+	height: 420px;
+ 	background-color:#f2f2f2; 
+}
+
+.map .pieMapa
+{
+	width: 18%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.map .pieMapa h3
+{
+	margin-top: 50px;
+	color: #000;
+}
+
+.map .pieMapa hr
+{
+	background-color: #fe4918 ;
+	height: 3px;
+}
+
+
+
 
 
 
