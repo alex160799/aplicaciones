@@ -212,7 +212,7 @@
         flex-wrap: wrap;
     }
     
-    .datos .campo {
+    .datos .icono_text {
         padding: 15px 50px;
         margin: 25px;
         border: 2px solid #FE4918;
@@ -222,15 +222,8 @@
         font-weight: 300;
     }
     
-    .campo,
-    #correo,
-    #descr {
-        outline: none;
-        border: 0;
-    }
-    
-    .datos #correo {
-        padding: 15px 110px;
+    .datos .icon_text {
+        padding: 5px 200px;
         margin: 25px;
         border: 2px solid #FE4918;
         border-radius: 20px;
@@ -239,15 +232,17 @@
         font-weight: 300;
     }
     
-    .datos #descr {
-        padding: 15px 240px;
-        margin: 20px;
-        border: 2px solid #FE4918;
-        border-radius: 20px;
-        font-size: 20px;
-        color: #FE4918;
-        font-weight: 300;
-        text-align: center;
+    #descr {
+        vertical-align: top;
+        text-align: justify;
+        width: 20rem;
+    }
+    
+    .campo,
+    #correo,
+    #descr {
+        outline: none;
+        border: 0;
     }
     
     textarea #descr {
