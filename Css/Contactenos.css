@@ -222,6 +222,13 @@
         font-weight: 300;
     }
     
+    .campo,
+    #correo,
+    #descr {
+        outline: none;
+        border: 0;
+    }
+    
     .datos #correo {
         padding: 15px 110px;
         margin: 25px;
