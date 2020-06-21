@@ -82,6 +82,16 @@ nav.redes-sociales a:last-child
 
 /*----------------------Barra de navegacion-------------------*/
  
+
+.fixed
+{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
 .tituloPrincipal
 {
 	font-size: 1.2em;

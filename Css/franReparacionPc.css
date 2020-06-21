@@ -15,7 +15,6 @@ p
 	font-size: 20px;
 }
 
- 
 
 /*Header*/
 
@@ -59,7 +58,7 @@ h2
 	margin-top: 100px;
 }
 
-h2::after
+.main h2::after
 {
 	content: '';
 	margin: 0 auto;
@@ -70,6 +69,15 @@ h2::after
 }
 /*----------------------Barra de navegacion-------------------*/
  
+.fixed
+{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
 .tituloPrincipal
 {
 	font-size: 1.2em;
@@ -420,13 +428,16 @@ div.contenedor h2
 .contenedor1 .cajaS2_ .pregunta
 {
 	flex: 1 1 50%;
+	padding-top: 40px;
 	font-size: 8em;
 }
 
 .cajaS2_1_ .pregunta
 {
 	flex: 1 1 50%;
+	padding-top: 40px;
 	font-size: 8em;
+	margin-right: 30px;
 }
 
  .cajaS2_ .definicion h3
