@@ -173,8 +173,9 @@ span{
 }
 .contenido-header h2{
     padding-top: 8%;
-    color: #fff;
+    color: white;
     font-size: 50px;
+
 }
 
 nav.redes-sociales
@@ -254,7 +255,7 @@ nav.redes-sociales a:last-child
 	margin-top: 14px;
 	padding-top: 14px;
 	width: 120px;
-	height: 40px;
+	height: 44px;
 	margin-left: 20px;
 }
 

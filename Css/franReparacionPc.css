@@ -8,6 +8,7 @@
 {
 	display: flex;
 	flex-flow: column nowrap;
+    margin-bottom: 50px;
 }
 
 p
@@ -26,7 +27,7 @@ p
 	background-attachment: contain;
 	background-position: center;
 	background-size: cover;
-	height: 80vh;	
+	height: 50vh;	
 }
 
 nav.redes-sociales
@@ -77,13 +78,16 @@ h2
 	left: 0;
 	z-index: 2;
 }
-
+.tituloPrincipal h1{
+	font-family:'Reboto', sans-serif;
+}
 .tituloPrincipal
 {
-	font-size: 1.2em;
+	width: 43%;
+	font-size: 14px;
 	color: #fff;
-	margin-left: 10px;
-	margin-right: 10px;
+	padding-left: 10px;
+    padding-top: 10px;
 }
 
 .menu
@@ -96,12 +100,15 @@ h2
 {
 	flex: 1 1 auto;
 	padding:  0px 0px 0px 50px;
-	width: 10%;
+    width: 7%;
+    border-right: solid 30px #fe4918;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .logo img
 {
-	width: 50%;
+	width: 70%;
 	padding-left: 0;
 	background-color: #353535;
 }
@@ -112,6 +119,8 @@ h2
 	flex: 3 1 auto;	
 	display: flex;
 	text-align: right;
+    font-family: 'Oswald',sans-serif;
+    width: 50%;
 }
 
 .nav a
@@ -124,11 +133,11 @@ h2
 	transition: all .3s ease;
 	display: block;
 	text-align: center;
-	margin-top: 20px;
-	padding-top: 15px;
-	width: 150px;
-	height: 40px;
-	margin-right: 15px;
+	margin-top: 14px;
+	padding-top: 14px;
+	width: 120px;
+	height: 44px;
+	margin-right: 20px;
 }
 
 .nav a:hover

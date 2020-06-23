@@ -91,10 +91,13 @@ nav.redes-sociales a:last-child
 	left: 0;
 	z-index: 2;
 }
-
+ .tituloPrincipal h1{
+     font-family:'Reboto', sans-serif;
+ }
 .tituloPrincipal
 {
-	font-size: 1.2em;
+	width: 43%;
+	font-size: 14px;
 	color: #fff;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -110,12 +113,15 @@ nav.redes-sociales a:last-child
 {
 	flex: 1 1 auto;
 	padding:  0px 0px 0px 50px;
-	width: 10%;
+    width: 7%;
+    border-right: solid 30px #fe4918;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .logo img
 {
-	width: 50%;
+	width: 70%;
 	padding-left: 0;
 	background-color: #353535;
 }
@@ -126,6 +132,8 @@ nav.redes-sociales a:last-child
 	flex: 3 1 auto;	
 	display: flex;
 	text-align: right;
+    font-family: 'Oswald',sans-serif;
+    width: 50%;
 }
 
 .nav a
@@ -138,11 +146,11 @@ nav.redes-sociales a:last-child
 	transition: all .3s ease;
 	display: block;
 	text-align: center;
-	margin-top: 20px;
-	padding-top: 15px;
-	width: 150px;
+	margin-top: 14px;
+	padding-top: 14px;
+	width: 120px;
 	height: 40px;
-	margin-right: 15px;
+	margin-right: 20px;
 }
 
 .nav a:hover

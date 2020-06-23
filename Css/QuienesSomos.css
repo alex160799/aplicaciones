@@ -98,7 +98,7 @@ nav.redes-sociales a:last-child {
     margin-top: 14px;
     padding-top: 14px;
     width: 120px;
-    height: 55px;
+    height: 44px;
     margin-right: 20px;
 }
 
@@ -174,12 +174,12 @@ nav.redes-sociales a:last-child {
 
 
 /*---------------------------------------------QUIENES SOMOS--------------------------------------------*/
-
+/*
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*/
 
 main {
     background: white;
