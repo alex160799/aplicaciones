@@ -1,0 +1,343 @@
+@charset "utf-8";
+ 
+
+/*-----------------------*/
+
+
+.padre
+{
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+h2
+{
+	padding: 5px;	
+	text-transform: uppercase;
+ 
+	margin-top: 50px;
+}
+
+h2::after
+{
+	content: '';
+	margin: 0 auto;
+	background-image: url("../recursos/img/separador.png");
+	height: 30px;
+	width: 100px;
+	display: block;
+}
+
+h3
+{
+	text-transform: uppercase;
+	text-align: center;
+	color: white;	
+}
+
+ span
+{
+	color: #fe4819;
+}
+
+p
+{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+
+/*Header*/
+
+.header
+{
+	display: flex;
+	flex-flow: column nowrap;
+	background: url( "../recursos/img/laptop-3174729_1920.jpg");
+	background-attachment: contain;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;	
+}
+
+nav.redes-sociales
+{
+	margin-top: 5%;
+	text-align: center;
+}
+
+nav.redes-sociales a
+{
+	color: #000;
+	font-size: 2.5em;
+	margin-right: 30px;
+}
+
+
+nav.redes-sociales a:last-child
+{
+	margin-right: 0;
+}
+
+/*----------------------Barra de navegacion-------------------*/
+ 
+
+.fixed
+{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.tituloPrincipal
+{
+	font-size: 1.2em;
+	color: #fff;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.menu
+{
+	display: flex;
+	background-color: #353535;
+}
+
+.logo
+{
+	flex: 1 1 auto;
+	padding:  0px 0px 0px 50px;
+	width: 10%;
+}
+
+.logo img
+{
+	width: 50%;
+	padding-left: 0;
+	background-color: #353535;
+}
+
+
+.nav
+{
+	flex: 3 1 auto;	
+	display: flex;
+	text-align: right;
+}
+
+.nav a
+{
+ 
+	color: #fff;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all .3s ease;
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 15px;
+	width: 150px;
+	height: 40px;
+	margin-right: 15px;
+}
+
+.nav a:hover
+{
+	background-color: #fe4918;
+}
+
+.nav a:last-child
+{
+	border: 2px solid #fe4918;
+}
+
+/*Footer*/
+
+.footer
+{
+	background-color: #353535;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.footer i
+{
+	color: white;
+}
+
+.footer .contenedor 
+{
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 0 auto;
+}
+
+
+
+.footer  h3
+{
+	margin-top: 10px;
+	margin-bottom: 40px;
+
+}
+
+.footer p
+{
+	width: 60%;
+	text-align: justify;
+	margin: 0 auto;
+	font-size: 15px;
+}
+.footer li
+{
+	color: white;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.footer a 
+{
+	font-size: 1.2em;
+	margin-right: 5px;
+}
+
+.footer ul
+{
+	margin-left: 15%;
+}
+
+.footer .footer-informacion, .footer .contactenos , .footer .redes
+{
+	flex: 1 1 20%; 
+	padding: 20px;
+}
+
+ 
+
+/*	main 	*/
+
+section .main
+{
+	display: flex;
+	flex-flow: row nowrap;	
+}
+
+.nuestro-servicios
+{
+	flex: 1 1 auto;
+	text-align: center;
+}
+
+
+.nuestro-servicios p 
+{
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: #000;
+}
+
+.contenedor
+{
+	width: 90%;
+	margin:  0 auto;
+}
+
+.descripcion-hacemos
+{
+	flex: 1 1 auto;
+	flex-flow: row nowrap;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+
+.contenidoPrincipal
+{
+	display: flex;
+	height: 400px;
+}
+
+.contenidoPrincipal h3, .contenidoPrincipal p
+{color: #000;}
+
+.contenido
+{
+	flex: 1 1 auto;
+	padding: 10px;
+}
+
+.fondo  
+{
+	font-size: 8em;
+}
+
+.fondo div
+{
+	font-size: 0.6em;
+	 color: #fe4918 ;
+}
+
+.contenedor-oscuro
+{
+	background-color: #353535;
+	height: 350px;
+	padding: 40px;
+}
+
+.contenedor-oscuro h3
+{
+	padding: 20px;
+	text-align: left;
+	font-size: 1.5em;	
+}
+
+/*Mapa*/
+
+.map
+{
+	text-align: center; 
+}
+
+ 
+div.mapa
+{
+	display: flex;
+	flex-flow: row nowrap;
+	height: 420px;
+ 	background-color:#f2f2f2; 
+}
+
+.map .pieMapa
+{
+	width: 18%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.map .pieMapa h3
+{
+	margin-top: 50px;
+	color: #000;
+}
+
+.map .pieMapa hr
+{
+	background-color: #fe4918 ;
+	height: 3px;
+}
+
+
+
+
+
+
+
+
