@@ -144,11 +144,11 @@ div.mapa
 {
 	display: flex;
 	flex-flow: column nowrap;
-	background: url( "../recursos/img/dedoTecno.png");
+	background: url( "../recursos/img/laptop-3174729_1920.jpg");
 	background-attachment: contain;
 	background-position: center;
 	background-size: cover;
-	height: 50vh;	
+	height: 87vh;	
 }
 .contenido-header h2{
     padding-top: 8%;
@@ -242,7 +242,7 @@ nav.redes-sociales a:last-child
 	background-color: #fe4918;
 }
 
-.nav a:last-child
+.nav .seleccionado
 {
 	border: 2px solid #fe4918;
 }

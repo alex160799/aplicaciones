@@ -263,7 +263,7 @@ nav.redes-sociales a:last-child
 	background-color: #fe4918;
 }
 
-.nav a:last-child
+.nav .seleccionado
 {
 	border: 2px solid #fe4918;
 }
