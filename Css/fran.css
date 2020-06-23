@@ -76,6 +76,7 @@ section .main
 	background-color: #353535;
 	height: 350px;
 	padding: 40px;
+	color: white;
 }
 
 .contenedor-oscuro h3
@@ -83,6 +84,7 @@ section .main
 	padding: 20px;
 	text-align: left;
 	font-size: 1.5em;	
+
 }
 
 /*Mapa*/
