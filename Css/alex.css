@@ -1,0 +1,339 @@
+
+@charset "utf-8";
+h2{
+    font-family: 'Oswald', sans-serif;
+    font: 400;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.primer{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.lado{
+    display: flex;
+    margin-bottom: 25px;
+}
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+}
+.texto{
+    width: 70%;
+}
+.logo{
+    width: 30%;
+    font-size: 10rem;
+    text-align: center;
+    padding-top: 6%;
+    color: #353535;
+}
+section{
+    background-color: #353535;
+}
+.cont2{
+    text-align: center;
+    color: white;
+    padding-bottom: 60px;
+}
+.cont2 ul{
+    list-style: none;
+}
+.cont2 ul li{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.cont2 li:before {    
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    color: #fe4918;
+    margin:0 5px 0 -15px;
+}
+.ult{
+    text-align: center;
+}
+
+.ult h2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.vent{
+    display: flex;
+    margin: 50px;
+}
+.contenidos{
+    width: 33%;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.contenidos i{
+    font-size: 10rem;
+    padding-bottom: 30px;
+    color: #fe4918;
+}
+.boton{ 
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+
+.boton input{
+    width:150px;
+    height: 60px;
+    background-color: #fe4918;
+    color: white;
+    border: #fe4918;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.boton input:hover{
+    background-color: #353535;
+    transition: ease 0.5s all;
+}
+/*Diseños para DiseñoWeb panel de 4 divs*/
+.modulos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pequeno{
+    width: 50%;
+}
+.conten{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.log{
+    width: 30%;
+    font-size: 5rem;
+    color: #fe4918;
+}
+.tex{
+    width: 70%;
+    text-align: left;
+}
+span{
+    color: #fe4918;
+}
+.tecno{
+    width: 25%;
+    text-align: center;
+    
+}
+.tecno i{
+    font-size: 10rem;
+    padding-bottom: 30px;
+    color: #353535;
+}
+.encabezado{
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+/*------------------------------------------------
+--------------------------------------------------
+-----------------header y footer------------------
+---------------------------------------------------
+--------------------------------------------------*/
+
+ 
+
+/*-----------------------*/
+
+
+.padre
+{
+	display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 50px;
+}
+
+/*Header*/
+
+.header
+{
+	display: flex;
+	flex-flow: column nowrap;
+	background: url( "../recursos/img/dedoTecno.png");
+	background-attachment: contain;
+	background-position: center;
+	background-size: cover;
+	height: 50vh;	
+}
+.contenido-header h2{
+    padding-top: 8%;
+    color: #fff;
+    font-size: 50px;
+}
+
+nav.redes-sociales
+{
+	margin-top: 5%;
+	text-align: center;
+}
+
+nav.redes-sociales a
+{
+	color: #000;
+	font-size: 2.5em;
+	margin-right: 30px;
+}
+
+
+nav.redes-sociales a:last-child
+{
+	margin-right: 0;
+}
+
+/*----------------------Barra de navegacion-------------------*/
+ .tituloPrincipal h1{
+     font-family:'Reboto', sans-serif;
+ }
+.tituloPrincipal
+{
+    width: 43%;
+	font-size: 14px;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.menu
+{
+	display: flex;
+	background-color: #353535;
+}
+
+.logona
+{
+	flex: 1 1 auto;
+	padding:  0px 0px 0px 50px;
+    width: 7%;
+    border-right: solid 30px #fe4918;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logona img
+{
+	width: 70%;
+	padding-left: 0;
+	background-color: #353535;
+}
+
+
+.nav
+{
+	flex: 3 1 auto;	
+	display: flex;
+    text-align: right;
+    font-family: 'Oswald',sans-serif;
+    width: 50%;
+}
+
+.nav a
+{
+ 
+	color: #fff;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all .3s ease;
+	text-align: center;
+	margin-top: 14px;
+	padding-top: 14px;
+	width: 120px;
+	height: 40px;
+	margin-left: 20px;
+}
+
+.nav a:hover
+{
+	background-color: #fe4918;
+}
+
+.nav .seleccionado
+{
+	border: 2px solid #fe4918;
+}
+
+/*Footer*/
+
+.footer
+{
+	background-color: #353535;
+	margin-top: 50px;
+    width: 100%;
+}
+
+.footer i
+{
+	color: white;
+}
+
+.footer .contenedor 
+{
+	display: flex;
+	flex-flow: row nowrap;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.footer h3 span
+{
+	color: #fe4819;
+}
+
+
+.footer  h3
+{
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	color: white;
+}
+
+.footer p
+{
+	width: 90%;
+	text-align: justify;
+	margin: 0 auto;
+    color: white;
+    font-family: 'Oswald',sans-serif;
+}
+.footer li
+{
+	color: white;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.footer a 
+{
+	font-size: 1.2em;
+	margin-right: 5px;
+}
+
+.footer ul
+{
+	margin-left: 15%;
+}
+
+.footer .footer-informacion, .footer .contactenos , .footer .redes
+{
+	flex: 1 1 20%; 
+	padding: 20px;
+}
+
