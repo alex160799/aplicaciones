@@ -93,7 +93,7 @@
       margin-top: 14px;
       padding-top: 14px;
       width: 120px;
-      height: 55px;
+      height: 44px;
       margin-right: 20px;
   }
   
@@ -174,7 +174,17 @@
 	z-index: 2;
 }
   
-  
+h2{
+    font-family: 'Oswald', sans-serif;
+    font: 400;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
   main {
       background: white;
       font-family: 'Roboto', sans-serif;

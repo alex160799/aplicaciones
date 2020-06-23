@@ -227,7 +227,17 @@ nav.redes-sociales a:last-child
  
 
 /*	main 	*/
-
+h2{
+    font-family: 'Oswald', sans-serif;
+    font: 400;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
 section .main
 {
 	display: flex;
