@@ -2,220 +2,6 @@
  
 
 /*-----------------------*/
-
-
-.padre
-{
-	display: flex;
-	flex-flow: column nowrap;
-}
-
-h2
-{
-	padding: 5px;	
-	text-transform: uppercase;
- 
-	margin-top: 50px;
-}
-
-h2::after
-{
-	content: '';
-	margin: 0 auto;
-	background-image: url("../recursos/img/separador.png");
-	height: 30px;
-	width: 100px;
-	display: block;
-}
-
-h3
-{
-	text-transform: uppercase;
-	text-align: center;
-	color: white;	
-}
-
- span
-{
-	color: #fe4819;
-}
-
-p
-{
-	font-size: 20px;
-	color: #fff;
-	text-align: center;
-}
-
-
-/*Header*/
-
-.header
-{
-	display: flex;
-	flex-flow: column nowrap;
-	background: url( "../recursos/img/laptop-3174729_1920.jpg");
-	background-attachment: contain;
-	background-position: center;
-	background-size: cover;
-	height: 100vh;	
-}
-
-nav.redes-sociales
-{
-	margin-top: 5%;
-	text-align: center;
-}
-
-nav.redes-sociales a
-{
-	color: #000;
-	font-size: 2.5em;
-	margin-right: 30px;
-}
-
-
-nav.redes-sociales a:last-child
-{
-	margin-right: 0;
-}
-
-/*----------------------Barra de navegacion-------------------*/
- 
-
-.fixed
-{
-	position: fixed;
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 2;
-}
-
-.tituloPrincipal
-{
-	font-size: 1.2em;
-	color: #fff;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-.menu
-{
-	display: flex;
-	background-color: #353535;
-}
-
-.logo
-{
-	flex: 1 1 auto;
-	padding:  0px 0px 0px 50px;
-	width: 10%;
-}
-
-.logo img
-{
-	width: 50%;
-	padding-left: 0;
-	background-color: #353535;
-}
-
-
-.nav
-{
-	flex: 3 1 auto;	
-	display: flex;
-	text-align: right;
-}
-
-.nav a
-{
- 
-	color: #fff;
-	font-size: 1.4em;
-	text-transform: uppercase;
-	text-decoration: none;
-	transition: all .3s ease;
-	display: block;
-	text-align: center;
-	margin-top: 20px;
-	padding-top: 15px;
-	width: 150px;
-	height: 40px;
-	margin-right: 15px;
-}
-
-.nav a:hover
-{
-	background-color: #fe4918;
-}
-
-.nav a:last-child
-{
-	border: 2px solid #fe4918;
-}
-
-/*Footer*/
-
-.footer
-{
-	background-color: #353535;
-	margin-top: 50px;
-	width: 100%;
-}
-
-.footer i
-{
-	color: white;
-}
-
-.footer .contenedor 
-{
-	display: flex;
-	flex-flow: row nowrap;
-	margin: 0 auto;
-}
-
-
-
-.footer  h3
-{
-	margin-top: 10px;
-	margin-bottom: 40px;
-
-}
-
-.footer p
-{
-	width: 60%;
-	text-align: justify;
-	margin: 0 auto;
-	font-size: 15px;
-}
-.footer li
-{
-	color: white;
-	margin-bottom: 30px;
-	text-align: left;
-}
-
-.footer a 
-{
-	font-size: 1.2em;
-	margin-right: 5px;
-}
-
-.footer ul
-{
-	margin-left: 15%;
-}
-
-.footer .footer-informacion, .footer .contactenos , .footer .redes
-{
-	flex: 1 1 20%; 
-	padding: 20px;
-}
-
  
 
 /*	main 	*/
@@ -333,6 +119,204 @@ div.mapa
 	background-color: #fe4918 ;
 	height: 3px;
 }
+
+/*------------------------------------------------
+--------------------------------------------------
+-----------------header y footer------------------
+---------------------------------------------------
+--------------------------------------------------*/
+
+ 
+
+/*-----------------------*/
+
+
+.padre
+{
+	display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 50px;
+}
+
+/*Header*/
+
+.header
+{
+	display: flex;
+	flex-flow: column nowrap;
+	background: url( "../recursos/img/dedoTecno.png");
+	background-attachment: contain;
+	background-position: center;
+	background-size: cover;
+	height: 50vh;	
+}
+.contenido-header h2{
+    padding-top: 8%;
+    color: #fff;
+    font-size: 50px;
+}
+
+nav.redes-sociales
+{
+	margin-top: 5%;
+	text-align: center;
+}
+
+nav.redes-sociales a
+{
+	color: #000;
+	font-size: 2.5em;
+	margin-right: 30px;
+}
+
+
+nav.redes-sociales a:last-child
+{
+	margin-right: 0;
+}
+
+/*----------------------Barra de navegacion-------------------*/
+ .tituloPrincipal h1{
+     font-family:'Reboto', sans-serif;
+ }
+.tituloPrincipal
+{
+    width: 43%;
+	font-size: 14px;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.menu
+{
+	display: flex;
+	background-color: #353535;
+}
+
+.logona
+{
+	flex: 1 1 auto;
+	padding:  0px 0px 0px 50px;
+    width: 7%;
+    border-right: solid 30px #fe4918;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logona img
+{
+	width: 70%;
+	padding-left: 0;
+	background-color: #353535;
+}
+
+
+.nav
+{
+	flex: 3 1 auto;	
+	display: flex;
+    text-align: right;
+    font-family: 'Oswald',sans-serif;
+    width: 50%;
+}
+
+.nav a
+{
+ 
+	color: #fff;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all .3s ease;
+	text-align: center;
+	margin-top: 14px;
+	padding-top: 14px;
+	width: 120px;
+	height: 40px;
+	margin-left: 20px;
+}
+
+.nav a:hover
+{
+	background-color: #fe4918;
+}
+
+.nav a:last-child
+{
+	border: 2px solid #fe4918;
+}
+
+/*Footer*/
+
+.footer
+{
+	background-color: #353535;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.footer i
+{
+	color: white;
+}
+
+.footer .contenedora 
+{
+	display: flex;
+	flex-flow: row nowrap;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.footer h3 span
+{
+	color: #fe4819;
+}
+
+
+.footer  h3
+{
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	color: white;
+}
+
+.footer p
+{
+	width: 90%;
+	text-align: justify;
+	margin: 0 auto;
+    color: white;
+    font-family: 'Oswald',sans-serif;
+}
+.footer li
+{
+	color: white;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.footer a 
+{
+	font-size: 1.2em;
+	margin-right: 5px;
+}
+
+.footer ul
+{
+	margin-left: 15%;
+}
+
+.footer .footer-informacion, .footer .contactenos , .footer .redes
+{
+	flex: 1 1 20%; 
+	padding: 20px;
+}
+
+
 
 
 
