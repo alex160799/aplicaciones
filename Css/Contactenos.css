@@ -109,8 +109,9 @@
         background-color: #fe4918;
     }
     
-    .nav a:last-child {
-        border: 2px solid #fe4918;
+    .nav .seleccionado
+    {
+	border: 2px solid #fe4918;
     }
     /*Footer*/
     

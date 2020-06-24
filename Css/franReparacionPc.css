@@ -145,7 +145,7 @@ h2
 	background-color: #fe4918;
 }
 
-.nav a:last-child
+.nav .seleccionado
 {
 	border: 2px solid #fe4918;
 }
