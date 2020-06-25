@@ -8,6 +8,17 @@
       flex-flow: column nowrap;
       margin-bottom: 50px;
   }
+
+h2::after
+{
+	content: '';
+	margin: 0 auto;
+	background-image: url("../recursos/img/separador.png");
+	height: 30px;
+	width: 100px;
+	display: block;
+}
+
   /*Header*/
   
   .header {
@@ -262,9 +273,12 @@ p{
   }
 
 /*Mapa*/
-
+ 
 div.mapa
 {
+
+	display: flex;
+	flex-flow: row nowrap;
 	height: 420px;
  	background-color:#f2f2f2; 
 }
