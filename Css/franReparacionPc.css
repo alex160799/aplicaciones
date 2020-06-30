@@ -12,8 +12,8 @@
 }
 
 p
-{
-	font-size: 20px;
+{	font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 
@@ -189,11 +189,11 @@ h2
 
 .footer p
 {
-	width: 60%;
-	text-align: justify;
-	margin: 0 auto;
-	color: white;
-	font-size: 15px;
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Oswald',sans-serif;
 }
 .footer li
 {
