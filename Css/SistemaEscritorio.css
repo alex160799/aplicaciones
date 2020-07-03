@@ -47,13 +47,13 @@ nav.redes-sociales a:last-child {
 
 
 /*----------------------Barra de navegacion-------------------*/
-.fixed
-{
-	position: fixed;
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 2;
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .tituloPrincipal h1 {
@@ -114,9 +114,8 @@ nav.redes-sociales a:last-child {
     background-color: #fe4918;
 }
 
-.nav .seleccionado
-{
-	border: 2px solid #fe4918;
+.nav .seleccionado {
+    border: 2px solid #fe4918;
 }
 
 
@@ -183,14 +182,17 @@ nav.redes-sociales a:last-child {
 
 
 /*---------------------------MENU---------------------*/
-h2{
+
+h2 {
     font-family: 'Oswald', sans-serif;
     font: 400;
 }
-h3{
+
+h3 {
     font-family: 'Oswald', sans-serif;
 }
-p{
+
+p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
@@ -308,4 +310,10 @@ section .contenedor {
     color: white;
     font-size: 15px;
     text-decoration: none;
+}
+
+.btn_enviar:hover {
+    background-color: #353535;
+    transition: ease 0.5s all;
+    border: 1px solid #353535;
 }

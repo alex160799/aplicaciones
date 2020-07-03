@@ -8,17 +8,15 @@
       flex-flow: column nowrap;
       margin-bottom: 50px;
   }
-
-h2::after
-{
-	content: '';
-	margin: 0 auto;
-	background-image: url("../recursos/img/separador.png");
-	height: 30px;
-	width: 100px;
-	display: block;
-}
-
+  
+  h2::after {
+      content: '';
+      margin: 0 auto;
+      background-image: url("../recursos/img/separador.png");
+      height: 30px;
+      width: 100px;
+      display: block;
+  }
   /*Header*/
   
   .header {
@@ -112,10 +110,9 @@ h2::after
       background-color: #fe4918;
   }
   
-    .nav .seleccionado
-    {
-	    border: 2px solid #fe4918;
-    }
+  .nav .seleccionado {
+      border: 2px solid #fe4918;
+  }
   /*Footer*/
   
   .footer {
@@ -177,26 +174,29 @@ h2::after
       padding: 20px;
   }
   /*---------------------------MENU---------------------*/
-  .fixed
-{
-	position: fixed;
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 2;
-}
   
-h2{
-    font-family: 'Oswald', sans-serif;
-    font: 400;
-}
-h3{
-    font-family: 'Oswald', sans-serif;
-}
-p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-}
+  .fixed {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 2;
+  }
+  
+  h2 {
+      font-family: 'Oswald', sans-serif;
+      font: 400;
+  }
+  
+  h3 {
+      font-family: 'Oswald', sans-serif;
+  }
+  
+  p {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+  }
+  
   main {
       background: white;
       font-family: 'Roboto', sans-serif;
@@ -271,14 +271,17 @@ p{
       font-size: 15px;
       text-decoration: none;
   }
-
-/*Mapa*/
- 
-div.mapa
-{
-
-	display: flex;
-	flex-flow: row nowrap;
-	height: 420px;
- 	background-color:#f2f2f2; 
-}
+  
+  .btn_enviar:hover {
+      background-color: #353535;
+      transition: ease 0.5s all;
+      border: 1px solid #353535;
+  }
+  /*Mapa*/
+  
+  div.mapa {
+      display: flex;
+      flex-flow: row nowrap;
+      height: 420px;
+      background-color: #f2f2f2;
+  }
