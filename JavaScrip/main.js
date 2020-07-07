@@ -14,7 +14,6 @@ $(function()
 	L.marker([12.179762, 273.904181]).addTo(map)
 		.bindPopup('Servicios Electrónicos Profesionales.')
 		.openPopup();
-	s
 });
 
 
@@ -24,6 +23,8 @@ $(function()
 	
 	var windoHeight = $('.header').height();
 	var barraAltura = $('.barra').innerHeight();
+
+	
 	
 	$(window).scroll(function()
 	{
@@ -42,5 +43,63 @@ $(function()
 		
 	});
 	
+	icon();
+	
 });
+
+
+function icon()
+{
+	/*Facebook*/
+	$(".face").hover(function(){
+		
+		$(".face").animate(
+			{
+			 color:'#3b5998'
+			},500);
+	}, function(){
+		$(".face").animate(
+			{
+			 color:'#000'
+			},500);
+	});
+	
+	/*twitter*/
+ 	$(".twit").hover(function(){
+		
+		$(".twit").animate(
+			{
+			 color:'#00acee'
+			},500);
+	}, function(){
+		$(".twit").animate(
+			{
+			 color:'#000'
+			},500);
+	});
+	
+	/*Instegram*/
+	 	$(".inst").hover(function(){
+		
+		$(".inst").animate(
+			{
+			 color:'#E1306C'
+			},500);
+	}, function(){
+		$(".inst").animate(
+			{
+			 color:'#000'
+			},500);
+	});
+	
+}
+
+
+
+
+
+
+
+
+
 
