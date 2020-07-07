@@ -2,8 +2,12 @@
 $(function()
 {
 	'use strict';
-		/*Mapa*/
-		
+	/*funcion de loadPage*/
+	
+	loadPage();
+	
+	/*Mapa*/
+	
 	var map= L.map('mapa').setView([12.172672, -86.094478], 30);
 
 		
@@ -94,6 +98,22 @@ function icon()
 	
 }
 
+function loadPage(){
+  $.blockUI({
+	message:'<img src="Recursos/img/carga.gif" width="150" height="150"> <h3>Cargando ...</h3>', 
+	 css: { 
+        border: 'none', 
+		color:'white',
+        padding: '15px', 
+        backgroundColor: 'transparent;', 
+        '-webkit-border-radius': '0px', 
+        '-moz-border-radius': '0px', 
+         opacity: 0.5, 
+         color: '#fff' 
+        } }); 
+ 
+        setTimeout($.unblockUI, 3000);
+}
 
 
 
