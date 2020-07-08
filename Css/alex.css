@@ -17,6 +17,7 @@ p{
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
+    font-size: 1.3em;
 }
 .lado{
     display: flex;
@@ -356,8 +357,9 @@ nav.redes-sociales a:last-child
 }
 .titufo{
 	font-family:'Reboto', sans-serif;
-	font-size: 35px;
-	color: #fe4918;
+	font-size: 25px;
+    color: #fe4918;
+    padding-top: 18px;
 }
 .pelado p{
 	text-align: center ;

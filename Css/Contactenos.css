@@ -289,8 +289,9 @@
 }
 .titufo{
 	font-family:'Reboto', sans-serif;
-	font-size: 35px;
-	color: #fe4918;
+	font-size: 25px;
+    color: #fe4918;
+    padding-top: 18px;
 }
 .pelado p{
 	text-align: center;
