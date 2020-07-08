@@ -105,7 +105,7 @@ function icon()
 
 function loadPage(){
   	
-	var home = "index";
+	var home = "Index";
 	if(URLactual === home){
 	   	 	$.blockUI({
 			message:'<img src="Recursos/img/carga.gif" width="150" height="150"> <h3>Cargando ...</h3>', 
