@@ -1,11 +1,9 @@
-
 $(function()
 {
 	'use strict';
-	/*funcion de loadPage*/
-	
+
+	/*carga*/
 	loadPage();
-	
 	/*Mapa*/
 	
 	var map= L.map('mapa').setView([12.172672, -86.094478], 30);
@@ -99,7 +97,8 @@ function icon()
 }
 
 function loadPage(){
-  $.blockUI({
+  
+	$.blockUI({
 	message:'<img src="Recursos/img/carga.gif" width="150" height="150"> <h3>Cargando ...</h3>', 
 	 css: { 
         border: 'none', 
@@ -117,8 +116,13 @@ function loadPage(){
 
 
 
-
-
+function efectoBrinco()
+{
+	$(".animacion").click(function(){
+		$(".animacion").effect( "bounce", "slow" );
+	});
+	
+}
 
 
 
