@@ -345,3 +345,21 @@ nav.redes-sociales a:last-child
 	padding: 20px;
 }
 
+/**--------------------------------------*/
+.conLogo{
+	display: flex;
+}
+.Logo2{
+	width: 100px;
+	height: 100px;
+	padding-top: 30px;
+}
+.titufo{
+	font-family:'Reboto', sans-serif;
+	font-size: 35px;
+	color: #fe4918;
+}
+.pelado p{
+	text-align: center ;
+	font-size: 1.2em;
+}
