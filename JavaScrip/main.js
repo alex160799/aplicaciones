@@ -1,13 +1,11 @@
 var URLactual = document.title;
 
+/*pantalla de carga*/
+$(document).ready(loadPage);
 
 $(function()
 {
 	'use strict';
-	
-	/*pantalla de carga*/
-	loadPage();	
- 
 	
 	/*Mapa*/
 	var home= "Index";
@@ -168,7 +166,7 @@ function loadPage(){
 				 color: '#fff' 
 				} }); 
 
-				setTimeout($.unblockUI, 3000);
+				setTimeout($.unblockUI, 1000);
 	   }
 
 }
