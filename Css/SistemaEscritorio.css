@@ -317,22 +317,28 @@ section .contenedor {
     transition: ease 0.5s all;
     border: 1px solid #353535;
 }
+
+
 /**--------------------------------------*/
-.conLogo{
-	display: flex;
+
+.conLogo {
+    display: flex;
 }
-.Logo2{
-	width: 100px;
-	height: 100px;
-	padding-top: 30px;
+
+.Logo2 {
+    width: 100px;
+    height: 100px;
+    padding-top: 30px;
 }
-.titufo{
-	font-family:'Reboto', sans-serif;
-	font-size: 25px;
+
+.titufo {
+    font-family: 'Reboto', sans-serif;
+    font-size: 25px;
     color: #fe4918;
     padding-top: 18px;
 }
-.pelado p{
-	text-align: center;
-	font-size: 1.2em;
+
+.pelado p {
+    text-align: center;
+    font-size: 1.2em;
 }
