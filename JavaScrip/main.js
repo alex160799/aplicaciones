@@ -1,9 +1,14 @@
 var URLactual = document.title;
+
+
 $(function()
 {
 	'use strict';
+	
 	/*pantalla de carga*/
- 	loadPage();
+	loadPage();	
+ 
+	
 	/*Mapa*/
 	var home= "Index";
 	var visitenos= "Visitenos";
@@ -59,6 +64,49 @@ $(function()
 
 function icon()
 {
+	/*Los del header*/
+	/*Facebook*/
+	$(".faceH").hover(function(){
+		
+		$(".faceH").animate(
+			{
+			 color:'#3b5998'
+			},500);
+	}, function(){
+		$(".faceH").animate(
+			{
+			 color:'#000'
+			},500);
+	});
+	
+	/*twitter*/
+ 	$(".twitH").hover(function(){
+		
+		$(".twitH").animate(
+			{
+			 color:'#00acee'
+			},500);
+	}, function(){
+		$(".twitH").animate(
+			{
+			 color:'#000'
+			},500);
+	});
+	
+	/*Instegram*/
+	 	$(".instH").hover(function(){
+		
+		$(".instH").animate(
+			{
+			 color:'#E1306C'
+			},500);
+	}, function(){
+		$(".instH").animate(
+			{
+			 color:'#000'
+			},500);
+	});
+	/*hover para los del footer*/
 	/*Facebook*/
 	$(".face").hover(function(){
 		
@@ -69,7 +117,7 @@ function icon()
 	}, function(){
 		$(".face").animate(
 			{
-			 color:'#000'
+			 color:'#FFF'
 			},500);
 	});
 	
@@ -83,7 +131,7 @@ function icon()
 	}, function(){
 		$(".twit").animate(
 			{
-			 color:'#000'
+			 color:'#FFF'
 			},500);
 	});
 	
@@ -97,7 +145,7 @@ function icon()
 	}, function(){
 		$(".inst").animate(
 			{
-			 color:'#000'
+			  color:'#FFF'
 			},500);
 	});
 	
@@ -124,6 +172,4 @@ function loadPage(){
 	   }
 
 }
-
  
-
