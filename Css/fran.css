@@ -310,7 +310,7 @@ section .main
 .contenedor-oscuro
 {
 	background-color: #353535;
-	height: 350px;
+	height: 300px;
 	padding: 40px;
 }
 
@@ -378,7 +378,9 @@ div.mapa
 .blan {
     color: #fff;
 }
-
+.mayor p{
+	font-size: 1.4rem;
+}
 
 
 
