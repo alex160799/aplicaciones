@@ -42,7 +42,7 @@ h3
 
 p
 {
-	font-size: 1em;
+	font-size: 1.2em;
 	color: #fff;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
@@ -377,9 +377,6 @@ div.mapa
 
 .blan {
     color: #fff;
-}
-.mayor p{
-	font-size: 1.4rem;
 }
 
 
