@@ -257,9 +257,8 @@ article .articulo {
 }
 
 .articulo .columnas {
-    width: 40%;
+    width: 35%;
     margin: 0 auto;
-    justify-content: space-around;
 }
 
 .datos {
@@ -269,9 +268,15 @@ article .articulo {
 }
 
 .datos .btn_enviar {
-    padding: 10px 30px;
     border: 1px solid #FE4918;
     background: #FE4918;
+
+
+}
+.btn_enviar{
+    width:150px;
+    height: 60px;
+    font-size: 20px;
 }
 
 .datos a {
@@ -286,7 +291,13 @@ article .articulo {
     border: 1px solid #353535;
 }
 
-
+.conprincipal{
+    width: 80%;
+    margin: 0 auto;
+}
+span{
+    color: #fff;
+}
 /**--------------------------------------*/
 
 .conLogo {

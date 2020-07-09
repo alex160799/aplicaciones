@@ -261,10 +261,14 @@
   }
   
   .button .btn_enviar {
-      padding: 10px 30px;
       border: 1px solid #FE4918;
       background: #FE4918;
   }
+  .btn_enviar{
+    width:150px;
+    height: 60px;
+    font-size: 20px;
+}
   
   .button a {
       color: white;
@@ -303,4 +307,7 @@
 .pelado p{
 	text-align: center;
 	font-size: 1.2em;
+}
+.blan {
+    color: #fff;
 }

@@ -496,13 +496,17 @@ div.contenedor h2
 .titufo{
 	font-family:'Reboto', sans-serif;
 	font-size: 25px;
-    color: #fe4918;
-    padding-top: 18px;
+	color: #fe4918;
+	padding-top: 25px;
+	text-align: left;
 }
 .pelado p{
 	text-align: center;
 	font-size: 1.2em;
 	width: 100% !important;
+}
+.blan{
+	color: #fff;
 }
 
 

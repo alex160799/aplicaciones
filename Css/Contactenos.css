@@ -252,6 +252,7 @@
         vertical-align: top;
         text-align: justify;
         width: 20rem;
+        height: 10rem;
     }
     
     .campo,
@@ -271,6 +272,11 @@
         background: #FE4918;
         color: white;
         font-size: 15px;
+    }
+    .btn_enviar{
+        width:150px;
+        height: 60px;
+        font-size: 20px;
     }
     
     .btn_enviar:hover {
@@ -296,4 +302,7 @@
 .pelado p{
 	text-align: center;
 	font-size: 1.2em;
+}
+.blan {
+    color: #fff;
 }
